@@ -2,18 +2,18 @@
 #include<stdlib.h>
 int main()
 {
-    int n;
+    int n;//定义变量来存储要输入的个数
     double avg;
-    double sum=0.0;
+    double sum=0.0;//定义并初始化变量用于累加求和
     printf("请输入个数\n");
     scanf("%d",&n);
-    if(n<=0)
+    if(n<=0)//检查个数
     {
         printf("请输入大于0的个数");
         return 1;
     }
-    int*p=(int*)malloc(n*sizeof(int));
-    if(p==NULL)
+    int*p=(int*)malloc(n*sizeof(int));//申请n个int类型大小的内存空间，将返回指针强转并赋值
+    if(p==NULL)//检查内存是否申请成功
     {
         printf("动态内存申请失败\n");
     }
