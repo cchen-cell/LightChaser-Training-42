@@ -1,1 +1,1 @@
-sha256:794ed63581fbb5f2dd03dc407c5d3ecdbf9609e85cbb91d91a1f509fc3ca6b85
+https://github.com/cchen-cell/LightChaser-Training-42/releases/download/v1.0-final/2026-11-27_183941_544.mp4
